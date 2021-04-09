@@ -444,7 +444,5 @@ estout reg_score_sem_prof_allFE reg_score_sem_curso_allFE reg_score_8_allFE reg_
 #delimit cr
 
 
-** Message when done
-sendtoslack, url(https://hooks.slack.com/services/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) message("Finished running main regs")
 
 cap log close

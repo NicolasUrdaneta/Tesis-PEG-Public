@@ -138,8 +138,6 @@ estout reg_positive reg_positive_heckman_FE reg_positive_v2 reg_positive_heckman
 	postfoot("\bottomrule \bottomrule" "\end{tabular}" "\begin{tablenotes}" "\scriptsize" "\item Errores estándar con cluster a nivel de profesor. * p$<$0.10, ** p$<$0.05, *** p$<$0.01. En la estimación de efectos fijos de estudiante el coeficiente de sexo del estudiante es igual a cero por colinealidad con los efectos fijos. Controles incluidos en la regresión a nivel de estudiante: edad, edad$^2$, número de materias inscritas en el semestre, promedio del semestre, promedio acumulado, situación académica, semestre que está cursando y nota obtenida en el curso. A nivel de profesor: edad, edad$^2$, antigüedad del contrato del profesor, categoría del profesor, polinomio grado 3 del valor agregado. A nivel de curso: facultad del curso, cantidad de estudiantes, fracción de estudiantes mujeres, cantidad de profesores que dictan el curso, créditos y un indicador de curso magistral/complementario. Se incluyen efectos fijos de semestre." "\end{tablenotes}" "\end{threeparttable}");
 #delimit cr
 
-** Send message when done:
-sendtoslack, url(https://hooks.slack.com/services/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) message("Heckman finished")
 
 
 /*
